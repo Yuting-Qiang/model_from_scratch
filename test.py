@@ -3,8 +3,8 @@ from models import gen_data
 import numpy as np
 
 features, targets = gen_data.gaussian_data(5000)
-clf = models.GaussianNB()
-clf.fit(features, targets)
+clf = models.LogisticRegression()
+clf.fit(features, targets, add_intercept=True)
 
 t_features, t_targets = gen_data.gaussian_data(1000)
 
