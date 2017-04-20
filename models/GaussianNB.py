@@ -57,8 +57,8 @@ class GaussianNB:
 
 
     def predict(self, feature):
-        res = np.dot(feature, self.weights)+self.weights0
-        if res > 0.5:
+        res = np.exp(np.dot(feature, self.weights)+self.weights0)
+        if res > 1:
             return 0
         else:
             return 1
