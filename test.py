@@ -1,3 +1,9 @@
+'''
+to do list:
+    compare my model with sklearn
+    compare logistic regression with Gaussian NB
+
+'''
 import models
 from models import gen_data
 import numpy as np
