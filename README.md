@@ -7,7 +7,7 @@ Logistic Regression
 
 ## to do list:
 
-* Normal Equation
+* <del>Normal Equation</del>
 * <del>Linear Regression</del>
 * feature scaling
 * Optimization algorithms:

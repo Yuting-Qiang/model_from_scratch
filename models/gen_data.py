@@ -18,3 +18,17 @@ def gaussian_data(num_observations):
 
     return simulated_separableish_features, simulated_separableish_labels
 
+def linear_data(weights,  num_observations, d = 1):
+
+    np.random.seed(1)
+
+    noises = np.random.normal(0, 0.75, num_observations)
+    features = np.random.rand(num_observations, d)*10
+    targets = np.dot(features, weights)+np.ones(num_observations)+noises
+
+    #fig = plt.figure(figsize = (10, 12))
+    #plt.scatter(features, targets)
+    #fig.savefig('temp.png')
+    return features, targets
+
+

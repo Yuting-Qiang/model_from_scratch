@@ -1,3 +1,4 @@
 from GaussianNB import GaussianNB
 from LogisticRegression import LogisticRegression
+from LinearRegression import LinearRegression
 import gen_data
