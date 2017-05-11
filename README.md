@@ -4,12 +4,13 @@ implements learning model from scratch
 ## Accomplished algorithms
 Gaussian Naive Bayes
 Logistic Regression
+Linear Regression
 
 ## to do list:
 
 * <del>Normal Equation</del>
 * <del>Linear Regression</del>
-* feature scaling
+* <del>feature scaling</del>
 * Optimization algorithms:
   * Conjugate gradient
   * BFGS
@@ -19,4 +20,6 @@ Logistic Regression
 * add regression for Linear Regresion and Logistic Regression
 * GAN
 * Boltzmann Machines
-
+* Neural Networks
+* handwritten digit classification
+* EM algorithm implementation
